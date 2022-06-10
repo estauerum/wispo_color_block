@@ -1,0 +1,55 @@
+.box {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    padding: 18px;
+}
+
+
+.box_yellow {
+    border: 1px solid #FFA300;
+    color: #FFA300;
+    width: 45%;
+
+
+}
+
+
+.box_grey {
+    color: #9A9A9A;
+    border: 1px solid #9A9A9A;
+    width: 32%;
+
+}
+
+.box_black {
+    color: #000;
+    border: 1px solid #000;
+    width: 45%;
+
+    
+
+}
+
+.wrap {
+    margin: 100px auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+@media (max-width: 1024px) {
+    .wrap {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .box {
+        width: 90%;
+    }
+}
